@@ -1,0 +1,23 @@
+{
+  "name": "js-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahadb802/JS-Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahadb802/JS-Testing/issues"
+  },
+  "homepage": "https://github.com/ahadb802/JS-Testing#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
