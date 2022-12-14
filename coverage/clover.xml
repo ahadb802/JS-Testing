@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1671043818209" clover="3.2.0">
-  <project timestamp="1671043818209" name="All files">
-    <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6" elements="24" coveredelements="24" complexity="0" loc="14" ncloc="14" packages="1" files="3" classes="3"/>
+<coverage generated="1671055206471" clover="3.2.0">
+  <project timestamp="1671055206471" name="All files">
+    <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7" elements="31" coveredelements="31" complexity="0" loc="20" ncloc="20" packages="1" files="4" classes="4"/>
     <file name="calculator.js" path="C:\Users\hp\OneDrive\Desktop\Microverse\week 7\JS-Testing\calculator.js">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <line num="1" count="1" type="stmt"/>
@@ -10,6 +10,15 @@
       <line num="7" count="1" type="stmt"/>
       <line num="9" count="1" type="stmt"/>
       <line num="16" count="1" type="stmt"/>
+    </file>
+    <file name="capital.js" path="C:\Users\hp\OneDrive\Desktop\Microverse\week 7\JS-Testing\capital.js">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
     </file>
     <file name="findLength.js" path="C:\Users\hp\OneDrive\Desktop\Microverse\week 7\JS-Testing\findLength.js">
       <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>

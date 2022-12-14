@@ -1,7 +1,7 @@
 const stringLength = require('./findLength');
 const reverseString = require('./reverseString');
 const arr = require('./calculator')
-
+const capital = require('./capital');
 
 //Arrange
 const message = {
@@ -14,7 +14,7 @@ const message = {
 const test1 = stringLength('hello world');
 const test2 = stringLength('my house');
 const test3 = reverseString('hello');
-
+const test4 = capital('hello');
 
 //Assert
 
@@ -45,6 +45,7 @@ describe('Calculator', () => {
     expect(arr.sum(addend1, addend2)).toBe(expectedSum);
 
   });
+
   test('difference(5, 5)', () => {
 
     const minuend = 5;
@@ -79,4 +80,8 @@ describe('Calculator', () => {
     expect(arr.divide(minuend, subtrahend)).toBe(expectedSum);
 
   });
+});
+
+test('Checking if String has First letter capital or not',() =>{
+  expect(test4).toBe('Hello');
 });
